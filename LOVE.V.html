@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>LOVE.V</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="cannara-biotech-inc-tsxv-love-otcqb-lovff-fra-8cb0">Cannara
+Biotech Inc (TSXV: LOVE | OTCQB: LOVFF | FRA: 8CB0)</h1>
+<h2 id="business-summary">Business summary</h2>
+<ul>
+<li>Vertically integrated Canadian producer of premium-grade cannabis
+and derivatives, focused on value pricing with premium quality.</li>
+<li>Operates two facilities in Quebec (Farnham and Valleyfield) totaling
+~1.65M sq. ft.; 12 of 24 Valleyfield zones active, ~300k sq. ft. canopy
+(plus 28k sq. ft. at Farnham).</li>
+<li>Annual production run-rate increased to ~50,000 kg after cultivation
+cycle optimization; targeting scalable growth aligned with demand.</li>
+<li>Brand portfolio: Tribal (premium/exotic genetics), Nugz
+(value-focused premium), Orchid CBD (CBD-rich wellness).</li>
+<li>National retail presence in 7 provinces, with an estimated 3.9%
+national retail market share in Q3 2025 and leadership in select
+sub-categories (e.g., live resin vapes).</li>
+</ul>
+<h2 id="recent-developments">Recent developments</h2>
+<ul>
+<li>Activated two additional Valleyfield grow zones (April and June
+2025), and optimized cultivation cycles, lifting capacity to ~50,000
+kg/year (FY26 target achieved a year early).</li>
+<li>Secured approval for 5 live resin/rosin vape cartridges for Quebec’s
+new vape category (launch expected November 2025), representing 20% of
+in-store SKUs.</li>
+<li>Signed LOI to sell non-core Valleyfield-adjacent building for ~$5.5M
+(expected July 2025 close) to reduce term loan principal.</li>
+<li>Reduced cost of debt via restated BMO facility; interest spread cut
+by 50 bps in June 2025, with a further 25 bps reduction post-Q3 on
+covenant achievement; removed related-party guarantee (March 2025).</li>
+<li>Product pipeline: 11 new SKUs approved for Q4 2025 (including new
+cultivars Wagyu Delight and Porto Leche) and first SQDC-listed accessory
+(Häffle glass hash pipe). Entering Newfoundland in Q4 2025 with Tribal
+live resin vapes.</li>
+</ul>
+<h2 id="key-issues">Key issues</h2>
+<ul>
+<li>Price compression persists across Canada; excise tax (largely
+specific per gram) now &gt;30% of gross cannabis revenues, pressuring
+margins; potential reform to a 10% ad valorem tax is a key industry
+watch.</li>
+<li>Category and provincial competitive dynamics (notably
+Ontario/Alberta) require disciplined pricing to protect margins.</li>
+<li>Concentration risk: ~83% of cannabis revenue from three provincial
+distributors in Q3 2025.</li>
+<li>Post-processing now at capacity; FY26 capex prioritized for
+Valleyfield processing center build-out to support further zone
+activations.</li>
+</ul>
+<h2 id="consolidated-financial-summary-cad">Consolidated financial
+summary (CAD)</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>All figures are CAD and taken from the Q3 2025 MD&amp;A (three and
+nine-month periods ended May 31, 2025) dated July 25, 2025 and the
+FY2024 MD&amp;A (year and quarter ended August 31, 2024) dated November
+25, 2024.</li>
+<li>“Revenue” is total revenues net of excise taxes (i.e., net revenue
+plus other income, where disclosed).</li>
+<li>“Gross Profit” is before fair value (FV) adjustments, where
+disclosed.</li>
+<li>Operating income (EBIT) is the company’s operating income (as cited
+in MD&amp;A, e.g., Q4 2024 EBIT $5.0M, Q3 2024 EBIT $3.6M).</li>
+<li>Finance costs for FY2024/Q4 2024 taken from “Other” segment net
+finance expense in the MD&amp;A tables.</li>
+<li>Cash flow figures are from the cash flow statements and free cash
+flow reconciliations (FCF = operating cash flow − capex).</li>
+</ul>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric (CAD)</th>
+<th style="text-align: right;">Q3 2025 (3M)</th>
+<th style="text-align: right;">Q2 2025 (3M)</th>
+<th style="text-align: right;">Q3 2024 (3M)</th>
+<th style="text-align: right;">Q4 2024 (3M)</th>
+<th style="text-align: right;">9M 2025 (YTD)</th>
+<th style="text-align: right;">9M 2024 (YTD)</th>
+<th style="text-align: right;">FY 2024 (12M)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue (net of excise)</td>
+<td style="text-align: right;">27,300,000</td>
+<td style="text-align: right;">26,500,000</td>
+<td style="text-align: right;">19,500,000</td>
+<td style="text-align: right;">23,438,170</td>
+<td style="text-align: right;">79,000,000</td>
+<td style="text-align: right;">58,700,000</td>
+<td style="text-align: right;">82,149,583</td>
+</tr>
+<tr>
+<td>Gross cannabis revenue (pre-excise)</td>
+<td style="text-align: right;">37,800,000</td>
+<td style="text-align: right;">36,800,000</td>
+<td style="text-align: right;">26,200,000</td>
+<td style="text-align: right;">31,383,306</td>
+<td style="text-align: right;">109,500,000</td>
+<td style="text-align: right;">78,800,000</td>
+<td style="text-align: right;">110,227,370</td>
+</tr>
+<tr>
+<td>Gross Profit (before FV adjustments)</td>
+<td style="text-align: right;">12,100,000</td>
+<td style="text-align: right;">10,800,000</td>
+<td style="text-align: right;">5,700,000</td>
+<td style="text-align: right;">7,040,411</td>
+<td style="text-align: right;">32,700,000</td>
+<td style="text-align: right;">20,800,000</td>
+<td style="text-align: right;">27,864,451</td>
+</tr>
+<tr>
+<td>Gross margin (before FV)</td>
+<td style="text-align: right;">44%</td>
+<td style="text-align: right;">41%</td>
+<td style="text-align: right;">29%</td>
+<td style="text-align: right;">30%</td>
+<td style="text-align: right;">41%</td>
+<td style="text-align: right;">35%</td>
+<td style="text-align: right;">34%</td>
+</tr>
+<tr>
+<td>Operating income (EBIT)</td>
+<td style="text-align: right;">6,800,000</td>
+<td style="text-align: right;">5,900,000</td>
+<td style="text-align: right;">3,600,000</td>
+<td style="text-align: right;">5,000,000</td>
+<td style="text-align: right;">16,900,000</td>
+<td style="text-align: right;">5,000,000</td>
+<td style="text-align: right;">10,100,000</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA</td>
+<td style="text-align: right;">7,600,000</td>
+<td style="text-align: right;">7,100,000</td>
+<td style="text-align: right;">2,800,000</td>
+<td style="text-align: right;">3,688,234</td>
+<td style="text-align: right;">20,700,000</td>
+<td style="text-align: right;">11,400,000</td>
+<td style="text-align: right;">15,135,763</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA margin</td>
+<td style="text-align: right;">~27.8%</td>
+<td style="text-align: right;">~26.8%</td>
+<td style="text-align: right;">~14.4%</td>
+<td style="text-align: right;">~15.7%</td>
+<td style="text-align: right;">26%</td>
+<td style="text-align: right;">~19.4%</td>
+<td style="text-align: right;">~18.4%</td>
+</tr>
+<tr>
+<td>Finance costs / Net finance expense</td>
+<td style="text-align: right;">1,000,000</td>
+<td style="text-align: right;">~1,200,000</td>
+<td style="text-align: right;">1,500,000</td>
+<td style="text-align: right;">1,245,071</td>
+<td style="text-align: right;">3,300,000</td>
+<td style="text-align: right;">4,300,000</td>
+<td style="text-align: right;">5,594,169</td>
+</tr>
+<tr>
+<td>Income before income taxes</td>
+<td style="text-align: right;">5,800,000</td>
+<td style="text-align: right;">4,700,000</td>
+<td style="text-align: right;">2,000,000</td>
+<td style="text-align: right;">3,799,937</td>
+<td style="text-align: right;">13,600,000</td>
+<td style="text-align: right;">700,000</td>
+<td style="text-align: right;">4,483,982</td>
+</tr>
+<tr>
+<td>Net income</td>
+<td style="text-align: right;">4,100,000</td>
+<td style="text-align: right;">3,300,000</td>
+<td style="text-align: right;">2,000,000</td>
+<td style="text-align: right;">5,754,439</td>
+<td style="text-align: right;">9,800,000</td>
+<td style="text-align: right;">700,000</td>
+<td style="text-align: right;">6,438,484</td>
+</tr>
+<tr>
+<td>Cash generated from operating activities</td>
+<td style="text-align: right;">13,901,854</td>
+<td style="text-align: right;">(2,600,000)</td>
+<td style="text-align: right;">4,325,380</td>
+<td style="text-align: right;">3,186,518</td>
+<td style="text-align: right;">17,186,287</td>
+<td style="text-align: right;">7,496,392</td>
+<td style="text-align: right;">10,682,910</td>
+</tr>
+<tr>
+<td>Capital expenditures</td>
+<td style="text-align: right;">2,206,713</td>
+<td style="text-align: right;">~1,400,000</td>
+<td style="text-align: right;">3,082,853</td>
+<td style="text-align: right;">493,091</td>
+<td style="text-align: right;">4,892,715</td>
+<td style="text-align: right;">6,975,869</td>
+<td style="text-align: right;">7,468,960</td>
+</tr>
+<tr>
+<td>Free cash flow</td>
+<td style="text-align: right;">11,695,141</td>
+<td style="text-align: right;">(4,000,000)</td>
+<td style="text-align: right;">1,242,527</td>
+<td style="text-align: right;">2,693,427</td>
+<td style="text-align: right;">12,293,572</td>
+<td style="text-align: right;">520,523</td>
+<td style="text-align: right;">3,213,950</td>
+</tr>
+<tr>
+<td>Other: National retail market share (est.)</td>
+<td style="text-align: right;">3.9%</td>
+<td style="text-align: right;">3.9%</td>
+<td style="text-align: right;">3.7%</td>
+<td style="text-align: right;">3.2%</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr>
+<td>Other: Quebec retail share (est.)</td>
+<td style="text-align: right;">12.3%</td>
+<td style="text-align: right;">12.8%</td>
+<td style="text-align: right;">9.7%</td>
+<td style="text-align: right;">11.9%</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+</tbody>
+</table>
+<h2 id="capitalization-cash-debt-and-enterprise-value">Capitalization,
+Cash, Debt, and Enterprise Value</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Stock price provided by user: $1.79 CAD.</li>
+<li>Basic shares outstanding: 91,433,135, per MD&amp;A “Summary of
+Outstanding Share Data” (noted as of July 25, 2024; no newer basic share
+count disclosed in the Q3 2025 MD&amp;A).</li>
+<li>Dilutive securities:
+<ul>
+<li>Stock options outstanding were 5,039,071 as of July 25, 2024;
+granted during Q3 2025: 100,000 @ $1.25 (ITM), 84,400 @ $1.80 (OTM);
+subsequent to quarter-end: 7,500 @ $1.80 (OTM).</li>
+<li>RSUs 202,500 as of July 25, 2024; +22,500 granted in Q3 2025;
+assumed outstanding RSUs ≈ 225,000 (subject to vesting).</li>
+<li>PSUs 625,000 (subject to performance/vesting).</li>
+<li>Convertible debenture: contingently issuable 2,611,111 shares (based
+on original principal); $1.0m principal repaid in May 2025, leaving
+~$4.7m principal outstanding at Q3 2025. Pro-rata if-converted shares ≈
+2.611m × (4.7/5.7) ≈ 2.154m. Note: conversion price appears above market
+($1.79), so anti-dilutive for EPS; shown for “if-converted” FD.</li>
+<li>“Side convertible debenture” disclosed as an off-balance sheet
+arrangement; excluded unless drawn.</li>
+</ul></li>
+<li>Treasury method for ITM options: only 100,000 options @ $1.25
+considered ITM; net new shares ≈ 100,000 − (100,000 × 1.25 / 1.79) ≈
+30,168.</li>
+<li>Cash and debt balances (as of May 31, 2025, CAD):
+<ul>
+<li>Cash: $14.4m.</li>
+<li>Debt: Revolving facilities ($6.759m), Term loan ($33.929m),
+Convertible debenture carrying amount ($6.013m). Total debt ≈
+$46.700m.</li>
+</ul></li>
+<li>Pro-forma adjustment: LOI to sell non-core building for ~$5.5m
+expected to close end of July 2025 with proceeds used to pay down the
+term loan (assume debt −$5.5m; cash unchanged).</li>
+<li>No minority interest disclosed; EV = Equity value + Debt −
+Cash.</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Price (CAD)</td>
+<td>$1.79</td>
+</tr>
+<tr>
+<td>Basic Shares</td>
+<td>91,433,135</td>
+</tr>
+<tr>
+<td>ITM Options (treasury method, net add)</td>
+<td>30,168</td>
+</tr>
+<tr>
+<td>RSUs (assumed outstanding post Q3 grant)</td>
+<td>225,000</td>
+</tr>
+<tr>
+<td>PSUs</td>
+<td>625,000</td>
+</tr>
+<tr>
+<td>Convertible Debenture If-Converted (pro-forma for $4.7m
+principal)</td>
+<td>~2,154,000</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (ITM only: basic + RSUs + PSUs + net ITM
+options; excludes convert)</td>
+<td>92,290,803</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (If-Converted incl. convert)</td>
+<td>94,444,803</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Basic)</td>
+<td>~$163.7m</td>
+</tr>
+<tr>
+<td>Implied Market Cap (FD, ITM only)</td>
+<td>~$165.2m</td>
+</tr>
+<tr>
+<td>Implied Market Cap (FD, If-Converted)</td>
+<td>~$169.1m</td>
+</tr>
+<tr>
+<td>Cash (May 31, 2025)</td>
+<td>$14.4m</td>
+</tr>
+<tr>
+<td>Debt: Revolving Credit Facilities</td>
+<td>~$6.759m</td>
+</tr>
+<tr>
+<td>Debt: Term Loan</td>
+<td>~$33.929m</td>
+</tr>
+<tr>
+<td>Debt: Convertible Debenture (carrying amount)</td>
+<td>~$6.013m</td>
+</tr>
+<tr>
+<td>Total Debt</td>
+<td>~$46.700m</td>
+</tr>
+<tr>
+<td>Net Debt (Reported)</td>
+<td>~$32.3m</td>
+</tr>
+<tr>
+<td>EV (Basic) = MCAP_basic + Debt − Cash</td>
+<td>~$196.0m</td>
+</tr>
+<tr>
+<td>EV (FD, ITM only)</td>
+<td>~$197.5m</td>
+</tr>
+<tr>
+<td>EV (FD, If-Converted)</td>
+<td>~$201.4m</td>
+</tr>
+<tr>
+<td>Pro-Forma Debt (post asset sale paydown)</td>
+<td>~$41.200m</td>
+</tr>
+<tr>
+<td>Pro-Forma Net Debt (post paydown)</td>
+<td>~$26.8m</td>
+</tr>
+<tr>
+<td>Pro-Forma EV (Basic)</td>
+<td>~$190.5m</td>
+</tr>
+<tr>
+<td>Pro-Forma EV (FD, ITM only)</td>
+<td>~$192.0m</td>
+</tr>
+<tr>
+<td>Pro-Forma EV (FD, If-Converted)</td>
+<td>~$195.9m</td>
+</tr>
+</tbody>
+</table>
+<h2 id="valuation">Valuation</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>LTM period defined as the last twelve months ended Q3 2025: 9M 2025
+(YTD to May 31, 2025) plus Q4 2024 (3M ended Aug 31, 2024).</li>
+<li>LTM EBIT = 9M 2025 EBIT ($16.9m) + Q4 2024 EBIT ($5.0m) =
+$21.9m.</li>
+<li>LTM adjusted EBITDA = 9M 2025 adj. EBITDA ($20.7m) + Q4 2024 adj.
+EBITDA ($3.688m) = $24.388m.</li>
+<li>LTM unlevered FCF = LTM FCF + LTM net finance expense
+<ul>
+<li>LTM FCF = 9M 2025 FCF ($12.294m) + Q4 2024 FCF ($2.693m) =
+$14.987m.</li>
+<li>LTM net finance expense = 9M 2025 ($3.300m) + Q4 2024 ($1.245m) =
+$4.545m.</li>
+<li>LTM unlevered FCF = $14.987m + $4.545m = $19.532m.</li>
+</ul></li>
+<li>EVs used:
+<ul>
+<li>Basic EV: ~$196.0m (from Capitalization section; based on $1.79
+share price and May 31, 2025 net debt).</li>
+<li>Fully Diluted EV: ~$201.4m (FD, If-Converted).</li>
+</ul></li>
+<li>Rounding: multiples shown to one decimal place. Where the MD&amp;A
+presented rounded values (e.g., EBIT $5.0m in Q4 2024, FY2024 adj.
+EBITDA “$15.1m”), exact quarterly reconciliation figures were used where
+available (e.g., Q4 2024 adj. EBITDA $3.688m).</li>
+<li>Revenue definition consistency: “Revenue” in the financial summary
+reflects total revenues net of excise (net revenue plus other income),
+matching the MD&amp;A’s “Total revenues” presentation.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Basic</th>
+<th>Fully Diluted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EV/EBIT (LTM)</td>
+<td>9.0x</td>
+<td>9.2x</td>
+</tr>
+<tr>
+<td>EV/adjusted EBITDA (LTM)</td>
+<td>8.0x</td>
+<td>8.3x</td>
+</tr>
+<tr>
+<td>EV/unlevered FCF (LTM)</td>
+<td>10.0x</td>
+<td>10.3x</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
