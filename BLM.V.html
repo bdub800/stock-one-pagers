@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BLM.V</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="blumetric-environmental-inc.">BluMetric Environmental Inc.</h1>
+<h2 id="business-summary">Business summary</h2>
+<ul>
+<li>Provider of water technologies and environmental consulting across
+WaterTech (treatment systems) and Professional Services (engineering,
+monitoring, H&amp;S, remediation, resources/geomatics).</li>
+<li>Serves four core markets: Commercial &amp; Industrial, Government
+(incl. Northern Canada), Military, and Mining.</li>
+<li>Operates from 10 offices and 2 manufacturing facilities in Canada
+and the U.S., with ~230 employees.</li>
+<li>Differentiates via integrated offerings: turnkey water/wastewater
+systems plus full-cycle environmental and health &amp; safety
+services.</li>
+</ul>
+<h2 id="recent-developments">Recent developments</h2>
+<ul>
+<li>Closed acquisition of Gemini Water LLC (Sep 23, 2024), expanding
+fixed-base desalination/wastewater systems and U.S./Caribbean footprint;
+driving large revenue growth in WaterTech.</li>
+<li>Expanded WaterTech fabrication capacity to &gt;40,000 sq ft across
+Canada and the U.S.; ramped Mission Ready Water and military systems
+(e.g., ASWUPS for Rheinmetall).</li>
+<li>Strengthened Toronto presence and U.S. leadership to grow Commercial
+&amp; Industrial and introduce recurring O&amp;M revenue models.</li>
+<li>Increased operating line availability to $4.0M; no borrowings
+outstanding as of Jun 30, 2025; net cash improved.</li>
+</ul>
+<h2 id="key-issues">Key issues</h2>
+<ul>
+<li>Professional Services softness due to delayed Canadian Federal
+Government contract awards and general market uncertainty; lower
+utilization pressured margins and operating costs.</li>
+<li>Sales mix shift toward WaterTech reduced consolidated gross margin
+(higher hardware mix vs. services).</li>
+<li>Mining market slowdown; Government revenue timing sensitive to
+political cycles and project starts.</li>
+<li>Typical seasonality in Professional Services, while WaterTech varies
+with commercial demand timing.</li>
+</ul>
+<h2 id="financial-summary-pl-by-period-cad-000s">Financial summary –
+P&amp;L by period (CAD ‘000s)</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Operating income (EBIT) = Gross Profit − Operating Expenses;
+excludes finance costs and taxes.</li>
+<li>EBITDA as reported where provided (only for Q3 and 9M periods in
+2024/2025).</li>
+<li>Adjusted EBITDA was defined but not separately disclosed; marked
+“n/a”.</li>
+<li>Revenue, Gross Profit, Operating Expenses for quarterly periods
+taken from “Quarterly Results” tables.</li>
+<li>Three- and nine-month figures taken from “Financial
+Highlights”.</li>
+<li>All figures in thousands of Canadian dollars.</li>
+</ul>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric (CAD ‘000s)</th>
+<th>Q3 2025 (3 mo)</th>
+<th>Q3 2024 (3 mo)</th>
+<th>Q2 2025</th>
+<th>Q2 2024</th>
+<th>Q1 2025</th>
+<th>Q1 2024</th>
+<th>Q4 2024</th>
+<th>Q4 2023</th>
+<th>9M 2025</th>
+<th>9M 2024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>14,671</td>
+<td>8,116</td>
+<td>15,926</td>
+<td>7,133</td>
+<td>13,967</td>
+<td>8,525</td>
+<td>11,064</td>
+<td>10,251</td>
+<td>44,564</td>
+<td>23,773</td>
+</tr>
+<tr>
+<td>Gross Profit</td>
+<td>5,213</td>
+<td>3,551</td>
+<td>4,307</td>
+<td>3,063</td>
+<td>4,611</td>
+<td>3,584</td>
+<td>3,784</td>
+<td>3,700</td>
+<td>14,131</td>
+<td>10,197</td>
+</tr>
+<tr>
+<td>Operating Expenses</td>
+<td>5,608</td>
+<td>3,436</td>
+<td>4,297</td>
+<td>2,856</td>
+<td>3,834</td>
+<td>3,148</td>
+<td>3,671</td>
+<td>2,759</td>
+<td>13,740</td>
+<td>9,440</td>
+</tr>
+<tr>
+<td>Operating Income (EBIT)</td>
+<td>(395)</td>
+<td>115</td>
+<td>10</td>
+<td>207</td>
+<td>777</td>
+<td>436</td>
+<td>113</td>
+<td>941</td>
+<td>391</td>
+<td>757</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>308</td>
+<td>361</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>2,217</td>
+<td>1,466</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Net Income (Loss)</td>
+<td>(451)</td>
+<td>27</td>
+<td>(60)</td>
+<td>117</td>
+<td>378</td>
+<td>242</td>
+<td>(320)</td>
+<td>700</td>
+<td>(133)</td>
+<td>384</td>
+</tr>
+<tr>
+<td>Gross Margin %</td>
+<td>35.5%</td>
+<td>43.8%</td>
+<td>27.0%</td>
+<td>42.9%</td>
+<td>33.0%</td>
+<td>42.0%</td>
+<td>34.2%</td>
+<td>36.1%</td>
+<td>31.7%</td>
+<td>42.9%</td>
+</tr>
+<tr>
+<td>Finance Costs</td>
+<td>83</td>
+<td>61</td>
+<td>71</td>
+<td>46</td>
+<td>84</td>
+<td>57</td>
+<td>171</td>
+<td>13</td>
+<td>238</td>
+<td>165</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cash-flow-and-capex">Cash flow and capex</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Cash flow from operations equals “Operating activities” cash flow in
+the cash flow summary.</li>
+<li>Capital expenditures not disclosed separately; “Investing
+activities” includes IP development and equipment. Capex row is marked
+n/a; “Investing cash flow” shown as reference.</li>
+<li>Free cash flow (non-IFRS) per company.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Metric (CAD ‘000s)</th>
+<th>9M 2025</th>
+<th>9M 2024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cash flow from operations</td>
+<td>1,637</td>
+<td>280</td>
+</tr>
+<tr>
+<td>Investing cash flow (proxy only)</td>
+<td>(527)</td>
+<td>(202)</td>
+</tr>
+<tr>
+<td>Capital expenditures</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Free cash flow (company-defined)</td>
+<td>760</td>
+<td>695</td>
+</tr>
+</tbody>
+</table>
+<h2 id="selected-balance-sheet-and-liquidity-snapshot">Selected balance
+sheet and liquidity snapshot</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Point-in-time metrics are as of June 30, 2025 vs. June 30,
+2024.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Metric (CAD ‘000s)</th>
+<th>Jun 30, 2025</th>
+<th>Jun 30, 2024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total Assets</td>
+<td>34,745</td>
+<td>19,104</td>
+</tr>
+<tr>
+<td>Working Capital</td>
+<td>8,520</td>
+<td>11,300</td>
+</tr>
+<tr>
+<td>Shareholders’ Equity</td>
+<td>17,363</td>
+<td>12,740</td>
+</tr>
+<tr>
+<td>Non-current Liabilities</td>
+<td>6,012</td>
+<td>2,139</td>
+</tr>
+<tr>
+<td>Net Cash (non-IFRS)</td>
+<td>3,422</td>
+<td>1,722</td>
+</tr>
+<tr>
+<td>Operating Line Drawn</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="additional-operating-highlights">Additional operating
+highlights</h2>
+<ul>
+<li>Segment revenue mix (3M ended Jun 30, 2025): Professional Services
+$4,903; WaterTech $9,768.</li>
+<li>Segment revenue mix (9M ended Jun 30, 2025): Professional Services
+$14,880; WaterTech $29,684.</li>
+<li>Market revenue mix (9M ended Jun 30, 2025): Commercial &amp;
+Industrial $28,345; Government $5,500; Military $7,549; Mining
+$3,170.</li>
+</ul>
+<p>Assumptions and sources:</p>
+<ul>
+<li>All figures sourced from the provided MD&amp;A for the periods
+indicated.</li>
+<li>Calculated EBIT per instruction: EBIT = Gross Profit − Operating
+Expenses.</li>
+<li>Gross margin % = Gross Profit ÷ Revenue.</li>
+<li>Where metrics are not disclosed (e.g., Adjusted EBITDA by period,
+capex), they are marked n/a.</li>
+</ul>
+<h2 id="capitalization-cash-debt-and-enterprise-value">Capitalization,
+Cash, Debt, and Enterprise Value</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Stock price provided by user: $1.36 (assumed CAD).</li>
+<li>Current basic shares, options, and warrants from “Summary of
+Outstanding Shares and Dilutive Instruments” as of June 30, 2025:
+37,169,483 shares; 4,827,939 options; 262,500 warrants.</li>
+<li>Fully diluted shares estimated as basic + all options + all warrants
+due to lack of exercise price data (treasury method not applied; no cash
+proceeds added).</li>
+<li>Cash equals cash and cash equivalents at period end (CAD 3.422m)
+from “Cash and cash equivalents – End of period.”</li>
+<li>Debt (funded debt excluding leases) assumed $0: operating line drawn
+$0; long-term debt extinguished; “Net cash” equals cash, implying no
+funded debt outstanding.</li>
+<li>EV = Market Cap − Cash + Debt. All figures CAD.</li>
+<li>Pro-forma adjustments: None reported after quarter end (“There are
+no proposed transactions or subsequent events…”).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Price</td>
+<td>$1.36</td>
+</tr>
+<tr>
+<td>Basic Shares</td>
+<td>37,169,483</td>
+</tr>
+<tr>
+<td>Options</td>
+<td>4,827,939</td>
+</tr>
+<tr>
+<td>Warrants</td>
+<td>262,500</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (assumed)</td>
+<td>42,259,922</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Basic)</td>
+<td>$50.55m</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Fully Diluted)</td>
+<td>$57.47m</td>
+</tr>
+<tr>
+<td>Cash</td>
+<td>$3.42m</td>
+</tr>
+<tr>
+<td>Debt (funded, excl. leases)</td>
+<td>$0.00m</td>
+</tr>
+<tr>
+<td>Enterprise Value (Basic)</td>
+<td>$47.13m</td>
+</tr>
+<tr>
+<td>Enterprise Value (Fully Diluted)</td>
+<td>$54.05m</td>
+</tr>
+<tr>
+<td>Pro-forma adjustments after quarter end</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h2 id="valuation">Valuation</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>EBITDA (9M 2025 = $2.217m; Q3 2025 = $0.308m; 9M 2024 = $1.466m; Q3
+2024 = $0.361m) from “EBITDA and Adjusted EBITDA.”</li>
+<li>Q4 2024 EBITDA not disclosed; estimated as EBIT + D&amp;A + share
+comp using Q4 2024 EBIT from “Quarterly Results” and Q3 2024 D&amp;A and
+share comp as proxies:
+<ul>
+<li>Q4 2024 EBIT = Gross profit 3,784 − Operating expenses 3,671 =
+$0.113m.</li>
+<li>Proxy D&amp;A (Q3 2024) = $0.187m; proxy share comp (Q3 2024) =
+$0.059m.</li>
+<li>Estimated Q4 2024 EBITDA ≈ 0.113 + 0.187 + 0.059 = $0.359m.</li>
+</ul></li>
+<li>LTM EBITDA ≈ 9M 2025 EBITDA ($2.217m) + estimated Q4 2024 EBITDA
+($0.359m) = $2.576m.</li>
+<li>LTM EBIT calculated exactly from quarterly EBIT: Q4 2024 (0.113) +
+Q1 2025 (0.777) + Q2 2025 (0.010) + Q3 2025 (−0.395) = $0.505m.</li>
+<li>LTM unlevered FCF approximated as: LTM FCF ≈ 9M 2025 FCF ($0.760m,
+company-defined) + estimated Q4 2024 FCF. Q4 2024 FCF approximated using
+average quarterly 9M 2024 FCF ($0.695m/3 ≈ $0.232m). LTM FCF ≈ 0.760 +
+0.232 = $0.992m. Unlevered FCF = FCF + finance costs last four quarters:
+171 + 84 + 71 + 83 = $0.409m; thus ≈ $1.401m.</li>
+<li>Adjusted EBITDA not disclosed by quarter; not computed.</li>
+<li>EV from table above.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Estimated Q4 2024 EBITDA</td>
+<td>$0.359m</td>
+</tr>
+<tr>
+<td>LTM EBITDA (Q4’24–Q3’25)</td>
+<td>$2.576m</td>
+</tr>
+<tr>
+<td>LTM EBIT (Q4’24–Q3’25)</td>
+<td>$0.505m</td>
+</tr>
+<tr>
+<td>LTM Unlevered FCF (approx.)</td>
+<td>$1.401m</td>
+</tr>
+<tr>
+<td>EV (Basic)</td>
+<td>$47.13m</td>
+</tr>
+<tr>
+<td>EV (Fully Diluted)</td>
+<td>$54.05m</td>
+</tr>
+<tr>
+<td>EV/EBITDA (Basic)</td>
+<td>18.3x</td>
+</tr>
+<tr>
+<td>EV/EBITDA (Fully Diluted)</td>
+<td>21.0x</td>
+</tr>
+<tr>
+<td>EV/EBIT (Basic)</td>
+<td>93.3x</td>
+</tr>
+<tr>
+<td>EV/EBIT (Fully Diluted)</td>
+<td>107.0x</td>
+</tr>
+<tr>
+<td>EV/Unlevered FCF (Basic, approx.)</td>
+<td>33.6x</td>
+</tr>
+<tr>
+<td>EV/Unlevered FCF (Fully Diluted, approx.)</td>
+<td>38.6x</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

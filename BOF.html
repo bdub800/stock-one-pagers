@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BOF</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="branchout-food-inc.">BranchOut Food Inc.</h1>
+<h2 id="business-summary">Business summary</h2>
+<ul>
+<li>Develops, markets, and sells plant-based, dehydrated fruit and
+vegetable snacks and industrial ingredients.</li>
+<li>Operates a 50,000 sq. ft. manufacturing facility in Pisco, Peru
+using licensed GentleDry technology from EnWave.</li>
+<li>Sells through private label to major retailers, BranchOut-branded
+snacks, and bulk ingredients.</li>
+<li>U.S.-based sales operations; production primarily in Peru via owned
+facility (with prior use of contractors).</li>
+</ul>
+<h2 id="recent-developments">Recent developments</h2>
+<ul>
+<li>Peru facility launched in December 2024; insourcing production
+improved gross margin vs. 2024.</li>
+<li>Purchased first-mortgage position on the Peru facility ($1.267m),
+with intent to acquire the site in the future; landlord is in bankruptcy
+proceedings.</li>
+<li>Financing actions: ATM sales in H1 2025 ($2.41m net), warrant
+exercises ($1.17m), partial repayments on related party notes;
+extensions/amendments to Kaufman Kapital notes and warrants.</li>
+<li>Royalty/license with EnWave active; commenced royalty payments;
+future equipment purchase milestones (Third machine by 12/31/2025,
+Fourth by 12/31/2026).</li>
+<li>VAT (IGV) receivable in Peru recognized ($1.03m), first refund
+received in July 2025.</li>
+</ul>
+<h2 id="key-issues">Key issues</h2>
+<ul>
+<li>Going concern risk: recurring losses, limited cash ($0.64m at
+6/30/25), reliance on capital markets and high-interest related-party
+debt.</li>
+<li>Customer concentration: top customers drove 97%+ of H1 2025 revenue
+and receivables; changes in orders could materially impact results.</li>
+<li>Facility/lease risk: landlord bankruptcy; execution risk in planned
+facility purchase; idle capacity during ramp affects margins and
+costs.</li>
+<li>Covenants and secured debt: senior secured notes and convertible
+note with liens on substantially all assets; elevated interest
+expense.</li>
+<li>Internal controls: disclosure controls not effective as of
+6/30/25.</li>
+<li>Legal: wrongful termination lawsuit by former CFO (no accrual
+recorded).</li>
+<li>Commitments: minimum royalties to maintain avocado exclusivity and
+required future equipment purchases under EnWave agreement.</li>
+</ul>
+<h2 id="consolidated-financial-summary-usd-000s">Consolidated financial
+summary (USD ‘000s)</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Source: Company Form 10-Q for the quarter ended June 30, 2025
+(financial statements, MD&amp;A, Notes) and Form 10-K for the year ended
+December 31, 2024.</li>
+<li>Periods shown: Q2 = three months ended June 30; H1 = six months
+ended June 30; FY = year ended December 31.</li>
+<li>Operating income (EBIT) = Gross Profit − Operating Expenses (per
+instructions; matches reported operating loss).</li>
+<li>EBITDA:
+<ul>
+<li>H1 amounts from Note 19 of Q2 2025 10-Q.</li>
+<li>FY 2024 and FY 2023 EBITDA from 2024 10-K Note 22 (Segment
+Reporting), which reconciles to EBIT + depreciation of PP&amp;E.</li>
+</ul></li>
+<li>Adjusted EBITDA: Not reported.</li>
+<li>Free cash flow (FCF) approximated as Cash from Operating Activities
+− Capital Expenditures.</li>
+<li>“Finance costs/interest expense” uses total interest expense
+reported for each period.</li>
+<li>Percentages shown for gross margin are from statements/MD&amp;A; H1
+customer concentration from Q2 2025 10-Q Note 4; FY concentration from
+2024 10-K Note 7.</li>
+</ul>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric (USD ‘000s)</th>
+<th>Q2 2025</th>
+<th>Q2 2024</th>
+<th>H1 2025</th>
+<th>H1 2024</th>
+<th>FY 2024</th>
+<th>FY 2023</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>3,300</td>
+<td>1,363</td>
+<td>6,493</td>
+<td>2,830</td>
+<td>6,516</td>
+<td>2,826</td>
+</tr>
+<tr>
+<td>Gross Profit</td>
+<td>606</td>
+<td>149</td>
+<td>1,159</td>
+<td>432</td>
+<td>864</td>
+<td>(96)</td>
+</tr>
+<tr>
+<td>Gross Margin (%)</td>
+<td>18.4%</td>
+<td>10.9%</td>
+<td>17.8%</td>
+<td>15.3%</td>
+<td>13.3%</td>
+<td>(3.4%)</td>
+</tr>
+<tr>
+<td>Operating Income (Loss) (EBIT)</td>
+<td>(1,346)</td>
+<td>(826)</td>
+<td>(2,029)</td>
+<td>(1,852)</td>
+<td>(3,902)</td>
+<td>(3,502)</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>(1,642)</td>
+<td>(1,055)</td>
+<td>(3,731)</td>
+<td>(3,278)</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Finance costs / Interest expense</td>
+<td>264</td>
+<td>119</td>
+<td>505</td>
+<td>148</td>
+<td>863</td>
+<td>435</td>
+</tr>
+<tr>
+<td>Net Income (Loss)</td>
+<td>(1,603)</td>
+<td>(943)</td>
+<td>(2,522)</td>
+<td>(1,994)</td>
+<td>(4,752)</td>
+<td>(3,926)</td>
+</tr>
+<tr>
+<td>Cash from Operating Activities</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>(3,943)</td>
+<td>(1,357)</td>
+<td>(4,860)</td>
+<td>(3,529)</td>
+</tr>
+<tr>
+<td>Capital Expenditures (PP&amp;E purchases)</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>491</td>
+<td>576</td>
+<td>2,847</td>
+<td>117</td>
+</tr>
+<tr>
+<td>Free Cash Flow (CFO − Capex)</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>(4,434)</td>
+<td>(1,934)</td>
+<td>(7,707)</td>
+<td>(3,646)</td>
+</tr>
+<tr>
+<td>Top customer(s) concentration of revenue (H1)</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>97.1%</td>
+<td>99.0%</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Top customer(s) concentration of A/R (period-end)</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>97.6%</td>
+<td>91.0%</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<h2 id="capitalization-cash-debt-and-enterprise-value">Capitalization,
+Cash, Debt, and Enterprise Value</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>Source: BranchOut Food Inc. Form 10-Q for quarter ended June 30,
+2025.</li>
+<li>Stock price provided: $2.09.</li>
+<li>Basic shares:
+<ul>
+<li>6/30/2025: 10,719,769 (Balance Sheet).</li>
+<li>Pro forma/current: 11,783,485 as of Aug 13, 2025 (cover page).</li>
+</ul></li>
+<li>Warrants and options (6/30/2025):
+<ul>
+<li>In-the-money warrants used for TSM:
+<ul>
+<li>$1.00 exercise: 518,750 issued − 135,000 exercised in June = 383,750
+outstanding at 6/30.
+<ul>
+<li>Incremental shares via TSM = 383,750 × (2.09 − 1.00) / 2.09 ≈
+383,750 × 0.521531 = 200,944.</li>
+</ul></li>
+<li>$1.50 exercise: 500,000 (Kaufman Kapital) outstanding.
+<ul>
+<li>Incremental shares via TSM = 500,000 × (2.09 − 1.50) / 2.09 ≈
+500,000 × 0.282296 = 141,148.</li>
+</ul></li>
+</ul></li>
+<li>Options: 1,333,470 at WA exercise price $2.20 (out-of-the-money at
+$2.09) → excluded.</li>
+<li>Subsequent events: 138,716 $1.00 warrants exercised after
+quarter-end; remaining $1.00 warrants assumed 245,034 outstanding pro
+forma.
+<ul>
+<li>Pro forma TSM incremental for $1.00 warrants = 245,034 × 0.521531 ≈
+127,824.</li>
+</ul></li>
+</ul></li>
+<li>Convertible note (Kaufman Kapital): $3.4m principal, fixed
+conversion price $0.7582/share; assumed fully in-the-money and
+if-converted for “FD (if-converted)” calculations.
+<ul>
+<li>Shares if-converted ≈ $3,400,000 / $0.7582 ≈ 4.48 million shares
+(principal only; interest also convertible but excluded for
+simplicity).</li>
+</ul></li>
+<li>Cash and debt (6/30/2025):
+<ul>
+<li>Cash: $0.641m.</li>
+<li>Debt (incl. convertible, excl. leases): $5.565m = $3.366m
+convertible + $2.125m related party notes + $0.073m other notes.</li>
+<li>Finance lease liabilities: $0.106m (optional add to debt).</li>
+</ul></li>
+<li>Pro forma cash after 6/30/2025:
+<ul>
+<li>ATM gross proceeds through Aug 13, 2025: $1.760m; less 3% commission
+≈ $1.707m net.</li>
+<li>Warrant exercises (post-Q): $0.139m cash from 138,716 exercised @
+$1.00.</li>
+<li>Pro forma cash ≈ $0.641m + $1.707m + $0.139m ≈ $2.487m.</li>
+</ul></li>
+<li>Market cap = stock price × shares. EV = Equity Value + Debt − Cash.
+For “FD (if-converted)”, debt excludes the $3.4m convertible (assumed
+converted), and share count includes the if-converted shares. TSM used
+for in-the-money warrants; options OTM and excluded.</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Price</td>
+<td>$2.09</td>
+</tr>
+<tr>
+<td>Basic Shares (6/30/2025)</td>
+<td>10,719,769</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (6/30/2025, TSM + if-converted)</td>
+<td>≈ 15,546,861 = 10,719,769 + 200,944 (ITM $1.00) + 141,148 (ITM
+$1.50) + ~4,485,000 (convert)</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Basic, 6/30 shares)</td>
+<td>≈ $22.40m = 10,719,769 × $2.09</td>
+</tr>
+<tr>
+<td>Implied Market Cap (FD, 6/30, if-converted)</td>
+<td>≈ $32.49m = 15,546,861 × $2.09</td>
+</tr>
+<tr>
+<td>Cash (6/30/2025)</td>
+<td>$0.641m</td>
+</tr>
+<tr>
+<td>Debt (incl. convertible; excl. leases)</td>
+<td>$5.565m</td>
+</tr>
+<tr>
+<td>Finance Leases (optional)</td>
+<td>$0.106m</td>
+</tr>
+<tr>
+<td>EV (Basic, excl. leases)</td>
+<td>≈ $27.33m = $22.40m + $5.565m − $0.641m</td>
+</tr>
+<tr>
+<td>EV (Basic, incl. leases)</td>
+<td>≈ $27.43m</td>
+</tr>
+<tr>
+<td>EV (FD, if-converted, excl. leases)</td>
+<td>≈ $34.05m = $32.49m + $2.198m (non-convert debt) − $0.641m</td>
+</tr>
+<tr>
+<td>EV (FD, if-converted, incl. leases)</td>
+<td>≈ $34.16m</td>
+</tr>
+<tr>
+<td>Pro Forma Basic Shares (Aug 13, 2025)</td>
+<td>11,783,485</td>
+</tr>
+<tr>
+<td>Pro Forma FD Shares (TSM + if-converted)</td>
+<td>≈ 16,537,457 = 11,783,485 + 127,824 (ITM $1.00, PF) + 141,148 (ITM
+$1.50) + ~4,485,000 (convert)</td>
+</tr>
+<tr>
+<td>Pro Forma Market Cap (Basic)</td>
+<td>≈ $24.63m = 11,783,485 × $2.09</td>
+</tr>
+<tr>
+<td>Pro Forma Market Cap (FD, if-converted)</td>
+<td>≈ $34.56m = 16,537,457 × $2.09</td>
+</tr>
+<tr>
+<td>Pro Forma Cash</td>
+<td>≈ $2.487m (adds net ATM and warrant exercise cash)</td>
+</tr>
+<tr>
+<td>Pro Forma Debt (assumed unchanged)</td>
+<td>Same as above</td>
+</tr>
+<tr>
+<td>Pro Forma EV (Basic, excl. leases)</td>
+<td>≈ $27.71m = $24.63m + $5.565m − $2.487m</td>
+</tr>
+<tr>
+<td>Pro Forma EV (FD, if-converted, excl. leases)</td>
+<td>≈ $34.27m = $34.56m + $2.198m − $2.487m</td>
+</tr>
+</tbody>
+</table>
+<h2 id="valuation">Valuation</h2>
+<p>Assumptions and sources:</p>
+<ul>
+<li>FY 2024 figures from 2024 Form 10-K:
+<ul>
+<li>Revenue, gross profit, EBIT (operating loss), interest expense, net
+loss (Item 7/Item 8).</li>
+<li>EBITDA for FY 2024 and FY 2023 from Note 22 (Segment Reporting):
+Consolidated EBITDA of $(3.731)m (2024) and $(3.278)m (2023).</li>
+<li>Cash from operating activities and PP&amp;E purchases from
+Consolidated Statements of Cash Flows: CFO $(4.860)m (2024); Capex
+$2.847m (2024).</li>
+</ul></li>
+<li>H1 2025 and H1 2024 figures from Q2 2025 10-Q:
+<ul>
+<li>Revenue, gross profit, EBIT, EBITDA, interest expense, CFO, Capex
+per tables/notes.</li>
+<li>H1 FCF approximated as CFO − Capex.</li>
+</ul></li>
+<li>LTM methodology (as of Q2 2025): LTM = FY 2024 + H1 2025 − H1 2024
+for each metric.</li>
+<li>Unlevered Free Cash Flow (UFCF) = Free Cash Flow + finance
+costs/interest expense (LTM).</li>
+<li>EVs used from “Capitalization, Cash, Debt, and Enterprise Value”
+section as of 6/30/2025:
+<ul>
+<li>EV (Basic, excl. leases): $27.33m.</li>
+<li>EV (FD, if-converted, excl. leases): $34.05m.</li>
+</ul></li>
+<li>All LTM amounts shown in USD millions; minor rounding differences
+may occur.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY 2024 EBIT</td>
+<td>$(3.90)m</td>
+</tr>
+<tr>
+<td>Add: H1 2025 EBIT</td>
+<td>$(2.03)m</td>
+</tr>
+<tr>
+<td>Minus: H1 2024 EBIT</td>
+<td>$(1.85)m</td>
+</tr>
+<tr>
+<td>LTM EBIT</td>
+<td>$(4.08)m</td>
+</tr>
+<tr>
+<td>FY 2024 EBITDA</td>
+<td>$(3.73)m</td>
+</tr>
+<tr>
+<td>Add: H1 2025 EBITDA</td>
+<td>$(1.64)m</td>
+</tr>
+<tr>
+<td>Minus: H1 2024 EBITDA</td>
+<td>$(1.06)m</td>
+</tr>
+<tr>
+<td>LTM EBITDA</td>
+<td>$(4.32)m</td>
+</tr>
+<tr>
+<td>FY 2024 Free Cash Flow (CFO − Capex)</td>
+<td>$(7.71)m</td>
+</tr>
+<tr>
+<td>Add: H1 2025 FCF</td>
+<td>$(4.43)m</td>
+</tr>
+<tr>
+<td>Minus: H1 2024 FCF</td>
+<td>$(1.93)m</td>
+</tr>
+<tr>
+<td>LTM Free Cash Flow</td>
+<td>$(10.21)m</td>
+</tr>
+<tr>
+<td>LTM Interest expense (FY24 + H1’25 − H1’24)</td>
+<td>$1.22m</td>
+</tr>
+<tr>
+<td>LTM Unlevered Free Cash Flow (UFCF)</td>
+<td>$(8.99)m</td>
+</tr>
+<tr>
+<td>EV (Basic, excl. leases)</td>
+<td>$27.33m</td>
+</tr>
+<tr>
+<td>EV (FD, if-converted, excl. leases)</td>
+<td>$34.05m</td>
+</tr>
+<tr>
+<td>EV/EBIT (Basic)</td>
+<td>(6.7)x</td>
+</tr>
+<tr>
+<td>EV/EBIT (FD)</td>
+<td>(8.3)x</td>
+</tr>
+<tr>
+<td>EV/EBITDA (Basic)</td>
+<td>(6.3)x</td>
+</tr>
+<tr>
+<td>EV/EBITDA (FD)</td>
+<td>(7.9)x</td>
+</tr>
+<tr>
+<td>EV/UFCF (Basic)</td>
+<td>(3.0)x</td>
+</tr>
+<tr>
+<td>EV/UFCF (FD)</td>
+<td>(3.8)x</td>
+</tr>
+</tbody>
+</table>
+<p>Notes: - Adjusted EBITDA is not disclosed; therefore EV/Adjusted
+EBITDA is not presented. - Negative multiples reflect current
+loss-making profile.</p>
+</body>
+</html>
