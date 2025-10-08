@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>IMP.TO</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="intermap-technologies-corporation">Intermap Technologies
+Corporation</h1>
+<h2 id="business-summary">Business summary</h2>
+<ul>
+<li>Global geospatial intelligence company that acquires, fuses, and
+serves high-resolution elevation and imagery data plus analytics to
+government and commercial clients.</li>
+<li>Three revenue streams: (i) Acquisition Services (airborne
+multi-frequency radar collection), (ii) Value-Added Data (DSM/DTM/ORI
+and derived layers), and (iii) Software &amp; Solutions (web services,
+subscriptions, and applications).</li>
+<li>Proprietary airborne radar on Learjets enables day/night,
+all-weather collection; strong data fusion, orthorectification, and
+AI-enabled analytics capabilities.</li>
+<li>Owns and licenses its proprietary, global NEXTMap database
+(foundation data plus enriched features) across multiple industries
+(e.g., risk, utilities, telecom, transportation, energy).</li>
+</ul>
+<h2 id="recent-developments">Recent developments</h2>
+<ul>
+<li>Revenue mix and growth: H1 2025 revenue rose to $7.3m (vs. $5.2m in
+H1 2024) driven by Acquisition Services (Indonesia program progress); Q2
+2025 revenue declined y/y ($3.0m vs. $3.6m) on timing in Value-Added
+Data deliveries.</li>
+<li>Margin pressure: Personnel and subcontractor project start-up costs,
+plus higher PS&amp;M and travel, drove negative EBIT and net losses;
+Adjusted EBITDA turned negative in Q2 and H1 2025.</li>
+<li>Liquidity and financing: Cash increased to $7.8m and working capital
+to $3.8m at 6/30/25; completed a “bought deal” LIF + concurrent private
+placement for $8.7m gross in Q1 2025; subsequent to quarter-end, 1.20m
+warrants exercised for $1.0m.</li>
+<li>Balance sheet shifts: Receivables + unbilled fell sharply to $1.0m
+(from $6.0m at 12/31/24); A/P and accruals down to $2.6m; unearned
+revenue up to $2.46m; debt balances continued to amortize.</li>
+<li>Guidance context: MD&amp;A reiterates going concern material
+uncertainty; execution of contracts (with milestone payments) and/or
+additional financing remain critical.</li>
+</ul>
+<h2 id="key-issues">Key issues</h2>
+<ul>
+<li>Going concern uncertainty: Dependent on timely execution of large
+contracts (incl. foreign government program), milestone billing, and
+potential incremental financing.</li>
+<li>Revenue concentration and volatility: Significant reliance on large
+customers and milestone timing creates quarter-to-quarter
+variability.</li>
+<li>Cost discipline vs. growth: Headcount expansion and subcontractor
+start-up costs pressured profitability; managing growth while improving
+margins is key.</li>
+<li>Operational execution risks: Overseas collection programs, currency
+effects, and integration of subcontractors can impact cost, timing, and
+cash conversion.</li>
+</ul>
+<h2 id="financial-summary-usd-000s">Financial summary (USD ‘000s)</h2>
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric (USD ‘000s)</th>
+<th style="text-align: right;">Q3-23</th>
+<th style="text-align: right;">Q4-23</th>
+<th style="text-align: right;">Q1-24</th>
+<th style="text-align: right;">Q2-24</th>
+<th style="text-align: right;">Q3-24</th>
+<th style="text-align: right;">Q4-24</th>
+<th style="text-align: right;">Q1-25</th>
+<th style="text-align: right;">Q2-25</th>
+<th style="text-align: right;">H1-24</th>
+<th style="text-align: right;">H1-25</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td style="text-align: right;">1,500</td>
+<td style="text-align: right;">1,200</td>
+<td style="text-align: right;">1,700</td>
+<td style="text-align: right;">3,550</td>
+<td style="text-align: right;">5,000</td>
+<td style="text-align: right;">7,400</td>
+<td style="text-align: right;">4,300</td>
+<td style="text-align: right;">3,018</td>
+<td style="text-align: right;">5,225</td>
+<td style="text-align: right;">7,280</td>
+</tr>
+<tr>
+<td>Gross profit (Revenue – Operating costs)</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">842</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">(433)</td>
+<td style="text-align: right;">266</td>
+<td style="text-align: right;">(1,321)</td>
+</tr>
+<tr>
+<td>Operating income (EBIT)</td>
+<td style="text-align: right;">(800)</td>
+<td style="text-align: right;">(700)</td>
+<td style="text-align: right;">(800)</td>
+<td style="text-align: right;">626</td>
+<td style="text-align: right;">1,200</td>
+<td style="text-align: right;">1,500</td>
+<td style="text-align: right;">(1,200)</td>
+<td style="text-align: right;">(777)</td>
+<td style="text-align: right;">(215)</td>
+<td style="text-align: right;">(1,955)</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">900</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">(400)</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">(1,300)</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA</td>
+<td style="text-align: right;">(600)</td>
+<td style="text-align: right;">(200)</td>
+<td style="text-align: right;">(500)</td>
+<td style="text-align: right;">1,000</td>
+<td style="text-align: right;">1,600</td>
+<td style="text-align: right;">2,000</td>
+<td style="text-align: right;">(900)</td>
+<td style="text-align: right;">(300)</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">(1,200)</td>
+</tr>
+<tr>
+<td>Finance costs / interest expense</td>
+<td style="text-align: right;">~0</td>
+<td style="text-align: right;">~100</td>
+<td style="text-align: right;">~0</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">~100</td>
+<td style="text-align: right;">~0</td>
+<td style="text-align: right;">~0</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">51</td>
+</tr>
+<tr>
+<td>Net income (loss)</td>
+<td style="text-align: right;">(800)</td>
+<td style="text-align: right;">(1,000)</td>
+<td style="text-align: right;">(800)</td>
+<td style="text-align: right;">612</td>
+<td style="text-align: right;">1,100</td>
+<td style="text-align: right;">1,500</td>
+<td style="text-align: right;">(1,200)</td>
+<td style="text-align: right;">(816)</td>
+<td style="text-align: right;">(227)</td>
+<td style="text-align: right;">(2,028)</td>
+</tr>
+<tr>
+<td>Cash from operating activities</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1,173</td>
+<td style="text-align: right;">1,424</td>
+</tr>
+<tr>
+<td>Capital expenditures (PP&amp;E purchases)</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1,074</td>
+<td style="text-align: right;">223</td>
+</tr>
+<tr>
+<td>Free cash flow (CFO – PP&amp;E)</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">1,201</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Sources: Q2/H1 2025 and Q2/H1 2024 figures from the Condensed
+Consolidated Interim Financial Statements (unaudited, USD 000s).
+Eight-quarter “Selected Quarterly Information” from MD&amp;A (originally
+disclosed in USD millions; converted to USD 000s).</li>
+<li>Gross profit proxy = Revenue – Operating costs (Note 12(a)). The
+company does not present “gross profit”; Operating costs include cost of
+delivery plus SG&amp;A components (e.g., selling &amp; marketing), so
+this proxy is not a pure cost-of-sales measure.</li>
+<li>EBITDA and Adjusted EBITDA: Non-GAAP. For Q2 and H1 periods, values
+reflect the company’s MD&amp;A reconciliation; for other quarters, only
+Adjusted EBITDA was disclosed (EBITDA not provided). Q2 2025 EBITDA
+approximates -$449k if computed directly from the statements (Net loss +
+D&amp;A + interest), consistent with MD&amp;A rounding to -$0.4m.</li>
+<li>Finance costs: For Q2/H1 periods, precise values from the
+statements; for other quarters, approximate values (“~”) converted from
+MD&amp;A’s rounded $0.1m increments.</li>
+<li>Free cash flow approximated as Cash from Operating Activities –
+PP&amp;E purchases (Capex). Intangible additions (H1: $54k in 2025;
+$143k in 2024) are excluded from this FCF proxy unless otherwise
+noted.</li>
+<li>Segment highlights: Q2 2025 revenue by segment—Acquisition Services
+$1,435k; Value-Added Data $313k; Software &amp; Solutions $1,270k. H1
+2025 totals—Acquisition Services $3,848k; Value-Added Data $827k;
+Software &amp; Solutions $2,605k.</li>
+<li>Customer concentration: In Q2 2025, Customer A and B totaled $1,772k
+(≈59% of quarterly revenue).</li>
+</ul>
+<h2 id="capitalization-cash-debt-and-enterprise-value">Capitalization,
+Cash, Debt, and Enterprise Value</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Price (CAD)</td>
+<td>C$2.99</td>
+</tr>
+<tr>
+<td>FX (USD/CAD)</td>
+<td>0.75 (assumed)</td>
+</tr>
+<tr>
+<td>Stock Price (USD)</td>
+<td>$2.2425</td>
+</tr>
+<tr>
+<td>Basic Shares (post-Q2, as of Aug 14, 2025)</td>
+<td>60,207,730</td>
+</tr>
+<tr>
+<td>In-the-money warrants outstanding (Aug 14, 2025)</td>
+<td>2,452,872</td>
+</tr>
+<tr>
+<td>RSUs outstanding (Jun 30, 2025)</td>
+<td>3,169,757</td>
+</tr>
+<tr>
+<td>Warrant proceeds if exercised (USD)</td>
+<td>$1,497,682</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (TSM)</td>
+<td>65,162,500</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Basic)</td>
+<td>$135.0m</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Fully Diluted, TSM)</td>
+<td>$146.1m</td>
+</tr>
+<tr>
+<td>Cash (Jun 30, 2025)</td>
+<td>$7.79m</td>
+</tr>
+<tr>
+<td>Plus: cash from post-Q2 warrant exercises</td>
+<td>$1.01m</td>
+</tr>
+<tr>
+<td>Pro forma Cash</td>
+<td>$8.80m</td>
+</tr>
+<tr>
+<td>Gross Debt (incl. leases)</td>
+<td>$0.91m</td>
+</tr>
+<tr>
+<td>Net Cash (pro forma, incl. leases)</td>
+<td>$7.90m</td>
+</tr>
+<tr>
+<td>EV (Basic)</td>
+<td>$127.1m</td>
+</tr>
+<tr>
+<td>EV (Fully Diluted, TSM)</td>
+<td>$138.2m</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>FX assumption used for price conversion: 1 CAD = 0.75 USD. Price USD
+= 2.99 × 0.75 = $2.2425.</li>
+<li>Basic shares: 60,207,730 (MD&amp;A, Aug 14, 2025). For reference,
+Jun 30, 2025 shares outstanding were 59,230,010.</li>
+<li>Subsequent event: 1,200,554 warrants exercised for $1.014m cash
+after quarter end; reflected in pro forma cash and the Aug 14 share
+count.</li>
+<li>Warrants outstanding (Aug 14, 2025): 2,452,872 with strikes (USD)
+~$0.59–$1.69. All are in-the-money vs. $2.2425 USD share price. Proceeds
+detail (USD): 650,000@$0.59=$383,500; 1,653,000@$0.60=$991,800;
+120,000@$0.60=$72,000; 18,000@$1.69=$30,420; 11,872@$1.68=$19,962; total
+≈ $1,497,682.</li>
+<li>Fully diluted shares (TSM): FD = Basic + RSUs + [Warrants − (Warrant
+proceeds/price)]. Net new warrant shares ≈ 2,452,872 − ($1,497,682 /
+$2.2425) ≈ 1,785,000. FD ≈ 60,207,730 + 3,169,757 + 1,785,000 ≈
+65,162,500.</li>
+<li>Debt (Jun 30, 2025, USD): bank loan $16k; government loans $200k;
+loan payable $222k; long-term project financing $176k; lease obligations
+$292k; total ≈ $906k. Net cash (incl. leases) = $8.804m − $0.906m ≈
+$7.90m.</li>
+<li>EV (Basic) = Market Cap (Basic) + Debt − Pro forma Cash = $135.0m +
+$0.91m − $8.80m ≈ $127.1m.</li>
+<li>EV (FD, TSM) = Market Cap (FD TSM) + Debt − Pro forma Cash = $146.1m
++ $0.91m − $8.80m ≈ $138.2m.</li>
+<li>Using TSM, we do not add hypothetical future warrant proceeds to
+cash in EV FD because the proceeds are implicitly used to repurchase
+shares in the TSM share count. If one instead included all FD shares
+(simple add) and added warrant proceeds to cash, EV would be lower by
+≈$1.50m.</li>
+</ul>
+<h2 id="valuation">Valuation</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Basic</th>
+<th>Fully Diluted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EV/EBIT (LTM)</td>
+<td>181.6x</td>
+<td>197.5x</td>
+</tr>
+<tr>
+<td>EV/adjusted EBITDA (LTM)</td>
+<td>53.0x</td>
+<td>57.6x</td>
+</tr>
+<tr>
+<td>EV/unlevered FCF (LTM)</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>LTM period ends Q2 2025.</li>
+<li>LTM EBIT = sum of quarterly operating income (Q3’24 + Q4’24 + Q1’25
++ Q2’25) from MD&amp;A Selected Quarterly Information (USD m): 1.2 + 1.5
+− 1.2 − 0.8 = 0.7 ⇒ $0.7m.</li>
+<li>LTM Adjusted EBITDA = sum of quarterly adjusted EBITDA (USD m): 1.6
++ 2.0 − 0.9 − 0.3 = 2.4 ⇒ $2.4m.</li>
+<li>EV/EBIT (Basic) = $127.1m / $0.7m ≈ 181.6x; EV/Adj EBITDA (Basic) =
+$127.1m / $2.4m ≈ 53.0x.</li>
+<li>EV/EBIT (FD) = $138.2m / $0.7m ≈ 197.5x; EV/Adj EBITDA (FD) =
+$138.2m / $2.4m ≈ 57.6x.</li>
+<li>Unlevered FCF (LTM): Not derivable from disclosures (CFO and
+PP&amp;E purchases disclosed only for H1 2025 and H1 2024). For
+reference only (not LTM): H1 2025 CFO $1,424k; PP&amp;E $223k; FCF ≈
+$1,201k; add finance costs $51k ⇒ “unlevered FCF (H1-2025 proxy)” ≈
+$1,252k (not used in valuation multiples).</li>
+<li>All EV and multiples shown in USD. Figures using quarterly MD&amp;A
+data are in USD millions and subject to rounding.</li>
+</ul>
+</body>
+</html>

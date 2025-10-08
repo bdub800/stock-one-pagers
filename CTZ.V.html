@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>CTZ.V</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="namsys-inc.-ctz.v">NamSys Inc. (CTZ.V)</h1>
+<h2 id="business-summary">Business summary</h2>
+<ul>
+<li>Canadian software company providing cloud-based, subscription (SaaS)
+cash management solutions under Cirreon and Currency Controller</li>
+<li>Serves retailers, cash-in-transit providers, and financial
+institutions; solutions focus on efficiency, security, and real-time
+analytics</li>
+<li>Highly recurring revenue model (≈99%+), delivered via hosted
+services with monthly billing</li>
+<li>Significant U.S. exposure: ~95%+ of sales denominated in USD; all
+operations reported in CAD</li>
+</ul>
+<h2 id="recent-developments">Recent developments</h2>
+<ul>
+<li>Growth and margins: Revenue up 17.7% YoY for 9M FY2025; gross margin
+improved to 64.9% (+2.4pp) on largely flat staffing</li>
+<li>Go-to-market investment: Selling expenses up 85.5% YTD (new Europe
+business development, travel, trade shows)</li>
+<li>G&amp;A discipline: Down 8.2% YoY YTD, helped by the absence of a
+prior-year one-time related-party management fee</li>
+<li>Credit and FX: One specific bad debt recognized ($50.7k);
+receivables &gt;90 days rose to $300k; YTD FX loss ($25.9k) vs
+prior-year gain, but Q3 had a small FX gain</li>
+<li>Balance sheet: No debt; working capital ≈$10.45m; cash and
+short-term investments ≈$9.55m; interest income $212.8k YTD from GICs;
+NCIB renewed (Mar 2025); 70,166 options exercised</li>
+</ul>
+<h2 id="key-issues">Key issues</h2>
+<ul>
+<li>Foreign exchange risk: Majority of revenue in USD, costs mainly in
+CAD; no hedging program in place</li>
+<li>Customer concentration and aging: Top three customers = ~39% of YTD
+revenue; ~61% of receivables from top three; &gt;90-day receivables
+increased</li>
+<li>Talent and cost inflation: Competitive labor market and expansion
+efforts driving higher selling expenses</li>
+<li>Internal control: Segregation-of-duties limitation typical of small
+companies, mitigated by oversight</li>
+<li>Operational resilience: Dependence on system uptime and
+cybersecurity; any outages/breaches could impact revenue and
+reputation</li>
+</ul>
+<h2 id="financial-summary-cad-000s">Financial summary (CAD $000s)</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric</th>
+<th style="text-align: right;">Q3 FY2025</th>
+<th style="text-align: right;">Q3 FY2024</th>
+<th style="text-align: right;">9M FY2025</th>
+<th style="text-align: right;">9M FY2024</th>
+<th style="text-align: right;">FY2024</th>
+<th style="text-align: right;">FY2023</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td style="text-align: right;">1,916.6</td>
+<td style="text-align: right;">1,741.0</td>
+<td style="text-align: right;">5,868.4</td>
+<td style="text-align: right;">4,985.9</td>
+<td style="text-align: right;">6,840.1</td>
+<td style="text-align: right;">6,093.0</td>
+</tr>
+<tr>
+<td>Gross Profit</td>
+<td style="text-align: right;">1,220.7</td>
+<td style="text-align: right;">1,108.6</td>
+<td style="text-align: right;">3,808.0</td>
+<td style="text-align: right;">3,111.1</td>
+<td style="text-align: right;">4,269.4</td>
+<td style="text-align: right;">3,652.5</td>
+</tr>
+<tr>
+<td>Gross Margin %</td>
+<td style="text-align: right;">63.7%</td>
+<td style="text-align: right;">63.7%</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">62.4%</td>
+<td style="text-align: right;">62.4%</td>
+<td style="text-align: right;">59.9%</td>
+</tr>
+<tr>
+<td>Operating Expenses (Selling+G&amp;A+Bad debt)</td>
+<td style="text-align: right;">476.3</td>
+<td style="text-align: right;">405.2</td>
+<td style="text-align: right;">1,436.8</td>
+<td style="text-align: right;">1,216.7</td>
+<td style="text-align: right;">1,697.4</td>
+<td style="text-align: right;">1,545.1</td>
+</tr>
+<tr>
+<td>Operating Income (EBIT)</td>
+<td style="text-align: right;">744.4</td>
+<td style="text-align: right;">703.4</td>
+<td style="text-align: right;">2,371.2</td>
+<td style="text-align: right;">1,894.4</td>
+<td style="text-align: right;">2,572.0</td>
+<td style="text-align: right;">2,107.4</td>
+</tr>
+<tr>
+<td>Depreciation &amp; Amortization</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">7.2</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td style="text-align: right;">746.3</td>
+<td style="text-align: right;">705.1</td>
+<td style="text-align: right;">2,376.5</td>
+<td style="text-align: right;">1,899.4</td>
+<td style="text-align: right;">2,579.0</td>
+<td style="text-align: right;">2,114.6</td>
+</tr>
+<tr>
+<td>Adjusted EBITDA</td>
+<td style="text-align: right;">N/A</td>
+<td style="text-align: right;">N/A</td>
+<td style="text-align: right;">N/A</td>
+<td style="text-align: right;">N/A</td>
+<td style="text-align: right;">N/A</td>
+<td style="text-align: right;">N/A</td>
+</tr>
+<tr>
+<td>Finance costs / Interest expense</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td>Interest income</td>
+<td style="text-align: right;">80.7</td>
+<td style="text-align: right;">81.1</td>
+<td style="text-align: right;">212.8</td>
+<td style="text-align: right;">216.2</td>
+<td style="text-align: right;">291.8</td>
+<td style="text-align: right;">195.1</td>
+</tr>
+<tr>
+<td>Net Income</td>
+<td style="text-align: right;">610.0</td>
+<td style="text-align: right;">581.5</td>
+<td style="text-align: right;">1,869.4</td>
+<td style="text-align: right;">1,531.0</td>
+<td style="text-align: right;">2,090.5</td>
+<td style="text-align: right;">1,614.9</td>
+</tr>
+<tr>
+<td>Basic EPS (CAD)</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.06</td>
+</tr>
+<tr>
+<td>Diluted EPS (CAD)</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.06</td>
+</tr>
+<tr>
+<td>Cash generated from operating activities</td>
+<td style="text-align: right;">312.5</td>
+<td style="text-align: right;">496.7</td>
+<td style="text-align: right;">1,535.6</td>
+<td style="text-align: right;">1,927.9</td>
+<td style="text-align: right;">2,508.1</td>
+<td style="text-align: right;">1,659.7</td>
+</tr>
+<tr>
+<td>Capital expenditures (Capex)</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">8.3</td>
+<td style="text-align: right;">5.0</td>
+</tr>
+<tr>
+<td>Free Cash Flow (CFO – Capex)</td>
+<td style="text-align: right;">310.4</td>
+<td style="text-align: right;">495.3</td>
+<td style="text-align: right;">1,529.5</td>
+<td style="text-align: right;">1,923.2</td>
+<td style="text-align: right;">2,499.8</td>
+<td style="text-align: right;">1,654.8</td>
+</tr>
+<tr>
+<td>Recurring revenue (% of revenue)</td>
+<td style="text-align: right;">99.5%</td>
+<td style="text-align: right;">98.8%</td>
+<td style="text-align: right;">99.5%</td>
+<td style="text-align: right;">99.1%</td>
+<td style="text-align: right;">98.2%</td>
+<td style="text-align: right;">98.6%</td>
+</tr>
+<tr>
+<td>Operating Margin % (EBIT/Revenue)</td>
+<td style="text-align: right;">38.8%</td>
+<td style="text-align: right;">40.4%</td>
+<td style="text-align: right;">40.4%</td>
+<td style="text-align: right;">38.0%</td>
+<td style="text-align: right;">37.6%</td>
+<td style="text-align: right;">34.6%</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Units: CAD $000s except per-share amounts and percentages. FY2024
+and FY2023 figures from audited financial statements for the years ended
+Oct 31, 2024 and 2023.</li>
+</ul>
+<h2 id="capitalization-cash-debt-and-enterprise-value">Capitalization,
+Cash, Debt, and Enterprise Value</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Price</td>
+<td>$1.40 CAD</td>
+</tr>
+<tr>
+<td>Basic Shares (07/31/2025)</td>
+<td>26,933,898</td>
+</tr>
+<tr>
+<td>In-the-money Options Outstanding</td>
+<td>1,141,084 @ $0.53</td>
+</tr>
+<tr>
+<td>Treasury Stock Method Net New Shares</td>
+<td>~709,102</td>
+</tr>
+<tr>
+<td>Fully Diluted Shares (TSM)</td>
+<td>~27,643,000</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Basic)</td>
+<td>~$37.7m</td>
+</tr>
+<tr>
+<td>Implied Market Cap (Fully Diluted)</td>
+<td>~$38.7m</td>
+</tr>
+<tr>
+<td>Cash</td>
+<td>$1,035,575</td>
+</tr>
+<tr>
+<td>Short-term Investments</td>
+<td>$8,509,475</td>
+</tr>
+<tr>
+<td>Total Cash &amp; ST Investments</td>
+<td>$9,545,050</td>
+</tr>
+<tr>
+<td>Total Debt</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Enterprise Value (Basic)</td>
+<td>~$28.2m</td>
+</tr>
+<tr>
+<td>Enterprise Value (Fully Diluted)</td>
+<td>~$29.2m</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Source: Unaudited condensed interim FS and MD&amp;A for the period
+ended July 31, 2025 (approved Sep 25, 2025).</li>
+<li>Basic shares outstanding at period-end: 26,933,898 (no reported
+repurchases or issuances after quarter-end; NCIB authorized but unused
+during 9M FY2025).</li>
+<li>Options outstanding and in-the-money: 1,141,084 options at $0.53
+(expiry Dec 15, 2027). Vested 737,334; for a trading-comps style fully
+diluted count, in-the-money options are included via TSM irrespective of
+vesting.</li>
+<li>TSM calculation: Net new shares = Options × (S − K)/S = 1,141,084 ×
+(1.40 − 0.53)/1.40 = 1,141,084 × 0.6214286 ≈ 709,102. Fully diluted
+shares ≈ 26,933,898 + 709,102 ≈ 27,643,000. Check: close to company’s Q3
+diluted WAVG shares (27,647,285).</li>
+<li>Market caps:
+<ul>
+<li>Basic = 26,933,898 × $1.40 ≈ $37.71m.</li>
+<li>Fully diluted (TSM) = 27,643,000 × $1.40 ≈ $38.70m.</li>
+</ul></li>
+<li>Cash and equivalents: Cash $1.036m + cashable GICs (short-term
+investments) $8.509m = $9.545m. Company has no debt outstanding.</li>
+<li>EV:
+<ul>
+<li>Basic EV ≈ $37.71m − $9.545m ≈ $28.16m.</li>
+<li>FD EV (TSM) ≈ $38.70m − $9.545m ≈ $29.16m.</li>
+</ul></li>
+<li>Cross-check (alternative method): If using “full-count” options (not
+TSM), FD shares = 26.934m + 1.141m = 28.075m; add option proceeds ($0.53
+× 1.141m ≈ $0.605m) to cash. EV computed this way is effectively the
+same as the TSM EV (~$29.2m).</li>
+<li>Pro-forma adjustments after quarter-end: None disclosed (no post-Q3
+option exercises, issuances, or debt events noted up to Sep 25,
+2025).</li>
+</ul>
+<h2 id="valuation">Valuation</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Basic</th>
+<th>Fully Diluted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EV/EBIT (LTM)</td>
+<td>9.2x</td>
+<td>9.6x</td>
+</tr>
+<tr>
+<td>EV/adjusted EBITDA (LTM)</td>
+<td>9.2x</td>
+<td>9.6x</td>
+</tr>
+<tr>
+<td>EV/unlevered FCF (LTM)</td>
+<td>13.4x</td>
+<td>13.9x</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>LTM period anchored at 07/31/2025 using audited FY2024 + 9M FY2025 −
+9M FY2024:
+<ul>
+<li>LTM EBIT ≈ 2,572.0 + 2,371.2 − 1,894.4 = 3,048.8 (CAD $000s).</li>
+<li>LTM EBITDA ≈ 2,579.0 + 2,376.5 − 1,899.4 = 3,056.1 (CAD $000s).</li>
+<li>LTM Free Cash Flow (FCF) ≈ 2,499.8 + 1,529.5 − 1,923.2 = 2,106.1
+(CAD $000s).</li>
+</ul></li>
+<li>Unlevered Free Cash Flow definition per instructions: FCF + finance
+costs/interest expense. The Company has no debt and interest expense =
+$0; thus unlevered FCF = FCF.</li>
+<li>Adjusted EBITDA is not disclosed; per instructions, EBITDA is used
+in place of adjusted EBITDA.</li>
+<li>EVs from the “Capitalization, Cash, Debt, and Enterprise Value”
+section (Basic EV ≈ $28.16m; FD EV ≈ $29.16m).</li>
+<li>Multiples computed as EV divided by LTM metric; rounded to one
+decimal.</li>
+</ul>
+<h2 id="stock-ownership">Stock Ownership</h2>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 29%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th>Holder</th>
+<th>Role/Relationship</th>
+<th style="text-align: right;">Shares Owned or Controlled</th>
+<th style="text-align: right;">% of Outstanding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Estate of Barry Sparks</td>
+<td>Principal holder</td>
+<td style="text-align: right;">9,071,410</td>
+<td style="text-align: right;">33.77%</td>
+</tr>
+<tr>
+<td>Topline Capital Management LLC</td>
+<td>Principal holder</td>
+<td style="text-align: right;">5,457,265</td>
+<td style="text-align: right;">20.31%</td>
+</tr>
+<tr>
+<td>Jason B. Siemens</td>
+<td>President &amp; CEO, Director</td>
+<td style="text-align: right;">688,670</td>
+<td style="text-align: right;">2.56%</td>
+</tr>
+<tr>
+<td>Gabriel Bouchard-Phillips</td>
+<td>Director</td>
+<td style="text-align: right;">1,494,904</td>
+<td style="text-align: right;">5.56%</td>
+</tr>
+<tr>
+<td>Leslie T. Gord</td>
+<td>Director</td>
+<td style="text-align: right;">15,000</td>
+<td style="text-align: right;">0.06%</td>
+</tr>
+<tr>
+<td>Michael Robb</td>
+<td>Director</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00%</td>
+</tr>
+<tr>
+<td>Nicole A. Sparks</td>
+<td>Chair of the Board</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00%</td>
+</tr>
+<tr>
+<td>Christie Gray</td>
+<td>Chief Operating Officer</td>
+<td style="text-align: right;">Not disclosed</td>
+<td style="text-align: right;">N/A</td>
+</tr>
+<tr>
+<td>Milo Gancarz</td>
+<td>Chief Information Officer</td>
+<td style="text-align: right;">Not disclosed</td>
+<td style="text-align: right;">N/A</td>
+</tr>
+<tr>
+<td>Christopher Adams</td>
+<td>Chief Financial Officer</td>
+<td style="text-align: right;">Not disclosed</td>
+<td style="text-align: right;">N/A</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Basis: 26,863,732 common shares outstanding as of March 19,
+2025.</li>
+<li>Formula: % of Outstanding = (Shares Owned or Controlled /
+26,863,732) × 100, rounded to two decimals.</li>
+<li>Calculations:
+<ul>
+<li>Estate of Barry Sparks: 9,071,410 / 26,863,732 = 0.337682 →
+33.77%</li>
+<li>Topline Capital Management LLC: 5,457,265 / 26,863,732 = 0.203146 →
+20.31%</li>
+<li>Jason B. Siemens: 688,670 / 26,863,732 = 0.025636 → 2.56%</li>
+<li>Gabriel Bouchard-Phillips: 1,494,904 / 26,863,732 = 0.055647 →
+5.56%</li>
+<li>Leslie T. Gord: 15,000 / 26,863,732 = 0.000559 → 0.06%</li>
+<li>Michael Robb, Nicole A. Sparks: “Nil” reported → treated as 0 shares
+→ 0.00%</li>
+</ul></li>
+<li>Disclosure notes:
+<ul>
+<li>Gabriel Bouchard-Phillips’ total includes 1,319,148 shares held
+directly and 175,756 in family accounts he controls.</li>
+<li>Share ownership for Christie Gray (COO), Milo Gancarz (CIO), and
+Christopher Adams (CFO) was not disclosed in the circular.</li>
+</ul></li>
+<li>Minor differences from percentages shown in the circular (e.g.,
+33.8%, 20.3%) are due to rounding; figures above are computed directly
+from the stated share counts and total shares outstanding.</li>
+</ul>
+</body>
+</html>
